@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智光科技 - 重新定义桌面照明</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="scripts/tailwind-config.js"></script>
+</head>
+<body class="font-sans antialiased text-gray-900 bg-gray-50">
+
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-sm fixed w-full z-10 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <i class="fas fa-lightbulb text-primary text-2xl mr-2"></i>
+                    <span class="font-bold text-xl tracking-tight">智光科技 (SmartLight)</span>
+                </div>
+                <div class="flex items-center space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-primary transition">首页</a>
+                    <a href="#features" class="text-gray-700 hover:text-primary transition">核心功能</a>
+                    <a href="#products" class="text-gray-700 hover:text-primary transition">产品系列</a>
+                    <a href="#about" class="text-gray-700 hover:text-primary transition">关于我们</a>
+                    <a href="login.html" class="bg-primary hover:bg-secondary text-white px-4 py-2 rounded-md text-sm font-medium transition shadow">
+                        <i class="fas fa-user-shield mr-1"></i> 内部ERP系统
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区 (Hero Section) -->
+    <div class="relative bg-gray-900 pt-24 pb-32 overflow-hidden mt-16">
+        <!-- 增加背景图 -->
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover opacity-30" src="https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="办公桌面照明背景">
+            <div class="absolute inset-0 bg-gray-900 opacity-50 mix-blend-multiply"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+                    <span class="block drop-shadow-md">创新护眼，点亮未来</span>
+                    <span class="block text-blue-400 mt-2 drop-shadow-md">AI智能感光台灯 Pro Max</span>
+                </h1>
+                <p class="mt-3 max-w-md mx-auto text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl drop-shadow">
+                    专为长时间伏案工作与学习人群设计。结合航空级全光谱光源与AI坐姿监测算法，为您提供极致的护眼体验与健康指导。
+                </p>
+                <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+                    <div class="rounded-md shadow">
+                        <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-secondary md:py-4 md:text-lg transition">
+                            立即购买
+                        </a>
+                    </div>
+                    <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                        <a href="#features" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-blue-50 hover:bg-blue-100 md:py-4 md:text-lg transition">
+                            了解更多
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 核心功能 -->
+    <div id="features" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">核心优势</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    不止是照明，更是您的健康管家
+                </p>
+            </div>
+
+            <div class="mt-16">
+                <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Feature 1 -->
+                    <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-sun text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-medium text-gray-900">全光谱自然光</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            模拟上午10点自然光线，显色指数Ra>98，防蓝光危害RG0豁免级，无可视频闪。
+                        </p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-brain text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-medium text-gray-900">AI自适应调光</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            内置高精度环境光传感器，根据环境亮度和桌面材质反射率，自动调节至最适宜的照度。
+                        </p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-child text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-medium text-gray-900">坐姿监测提醒</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            雷达波与红外双重探测，当检测到低头过低或坐姿不正时，通过轻柔光波变化进行提醒。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 系列产品 -->
+    <div id="products" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">产品矩阵</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    满足不同场景的照明需求
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col">
+                    <div class="h-48 relative flex items-center justify-center overflow-hidden">
+                        <img class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-110" src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="经典阅读灯 Std">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">经典阅读灯 Std</h3>
+                        <p class="text-gray-600 mb-4 flex-1">基础护眼功能，简约设计，适合学生宿舍及日常阅读使用。高显指LED，护眼不将就。</p>
+                        <div class="flex justify-between items-center mt-auto">
+                            <span class="text-2xl font-bold text-primary">¥ 199</span>
+                            <button class="px-4 py-2 bg-white border border-primary text-primary rounded hover:bg-primary hover:text-white transition">查看详情</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-md border-2 border-primary relative transform md:-translate-y-4 flex flex-col">
+                    <div class="absolute top-0 right-0 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-10">热销爆款</div>
+                    <div class="h-48 relative flex items-center justify-center overflow-hidden">
+                        <img class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-110" src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="AI护眼灯 Pro">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">AI护眼灯 Pro</h3>
+                        <p class="text-gray-600 mb-4 flex-1">全光谱自然光，搭载环境光自适应传感器，自动调节最佳照度，为白领与考研党量身打造。</p>
+                        <div class="flex justify-between items-center mt-auto">
+                            <span class="text-2xl font-bold text-primary">¥ 399</span>
+                            <button class="px-4 py-2 bg-primary text-white rounded hover:bg-secondary transition">立即抢购</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col">
+                    <div class="h-48 relative flex items-center justify-center overflow-hidden">
+                        <img class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-110" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="AI护眼灯 Max">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">AI护眼灯 Max</h3>
+                        <p class="text-gray-600 mb-4 flex-1">旗舰配置。雷达波坐姿监测、疲劳提醒、语音控制，极致的桌面照明体验。</p>
+                        <div class="flex justify-between items-center mt-auto">
+                            <span class="text-2xl font-bold text-primary">¥ 699</span>
+                            <button class="px-4 py-2 bg-white border border-primary text-primary rounded hover:bg-primary hover:text-white transition">查看详情</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 关于我们 -->
+    <div id="about" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <div class="p-10 lg:p-16 flex flex-col justify-center">
+                        <h2 class="text-3xl font-extrabold text-gray-900 mb-4">关于智光科技</h2>
+                        <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+                            智光科技 (SmartLight) 诞生于南航大学生创新产业中心，是一家专注于智能照明与健康光环境的科技创新企业。
+                        </p>
+                        <p class="text-md text-gray-500 mb-8 leading-relaxed">
+                            我们由一群充满激情的青年工程师与光学专家组成，致力于将前沿的人工智能算法与光学设计结合。我们的使命是“重新定义桌面照明”，让每一位用户在工作和学习中都能享受到最健康、最舒适的光环境。
+                        </p>
+                        
+                        <div class="mt-4 pt-6 border-t border-gray-100">
+                            <div class="flex items-start mb-4">
+                                <div class="flex-shrink-0 mt-1 text-primary">
+                                    <i class="fas fa-map-marker-alt text-xl"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-md font-bold text-gray-900">公司地址</h4>
+                                    <p class="text-gray-600 mt-1">南航大学生创新产业中心 A座 305室</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1 text-primary">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-md font-bold text-gray-900">联系邮箱</h4>
+                                    <p class="text-gray-600 mt-1">contact@smartlight-innov.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative min-h-[300px] lg:min-h-full overflow-hidden">
+                        <img class="absolute inset-0 w-full h-full object-cover" src="南航.jpeg" alt="南航校园">
+                        <div class="absolute inset-0 flex items-center justify-center text-white flex-col p-8 text-center z-10 bg-black bg-opacity-30">
+                            <h3 class="text-2xl font-bold mb-2 drop-shadow-lg">源自南航 追求卓越</h3>
+                            <p class="text-white drop-shadow-lg font-medium">产学研结合，持续探索光照技术的边界</p>
+                        </div>
+                        <!-- 装饰性背景图案 -->
+                        <svg class="absolute bottom-0 left-0 text-blue-500 w-full" viewBox="0 0 1440 320" fill="currentColor">
+                            <path d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,219,864,224C960,229,1056,203,1152,197.3C1248,192,1344,208,1392,216L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部信息 -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="flex justify-center md:justify-start items-center md:order-2 space-x-6 text-gray-400">
+                    <span>企业模拟沙盘 - 信息管理部出品</span>
+                </div>
+                <div class="mt-8 md:mt-0 md:order-1">
+                    <p class="text-center text-base text-gray-400">
+                        &copy; 2026 智光科技有限公司. 保留所有权利.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

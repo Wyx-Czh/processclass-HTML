@@ -1,0 +1,79 @@
+{
+  "orders": [
+    {
+      "id": "#ORD-20260409",
+      "customer": "华东教育集团",
+      "product": "AI护眼灯 Pro",
+      "amount": 150000,
+      "quantity": 500,
+      "time": "2026-04-09 10:30",
+      "status": "待发货"
+    },
+    {
+      "id": "#ORD-20260408",
+      "customer": "北方科技零售店",
+      "product": "经典阅读灯 Std",
+      "amount": 38000,
+      "quantity": 200,
+      "time": "2026-04-08 14:15",
+      "status": "已发货"
+    },
+    {
+      "id": "#ORD-20260405",
+      "customer": "星辰在线商城",
+      "product": "AI护眼灯 Max",
+      "amount": 450000,
+      "quantity": 1000,
+      "time": "2026-04-05 09:00",
+      "status": "已完成"
+    }
+  ],
+  "inventory": [
+    {
+      "name": "AI护眼灯 Pro",
+      "type": "成品",
+      "current": 800,
+      "safe": 500
+    },
+    {
+      "name": "高显指LED灯珠",
+      "type": "原材料",
+      "current": 1200,
+      "safe": 2000
+    },
+    {
+      "name": "经典阅读灯 Std",
+      "type": "成品",
+      "current": 2400,
+      "safe": 1000
+    }
+  ],
+  "finance": [
+    {
+      "date": "2026-04-09",
+      "type": "收入",
+      "summary": "华东教育集团 - 订单尾款",
+      "amount": 50000
+    },
+    {
+      "date": "2026-04-08",
+      "type": "支出",
+      "summary": "采购部 - 铝合金材料款",
+      "amount": -120000
+    },
+    {
+      "date": "2026-04-05",
+      "type": "收入",
+      "summary": "星辰在线商城 - 预付款",
+      "amount": 200000
+    }
+  ],
+  "production": [
+    {
+      "task": "AI护眼灯 Pro 生产任务",
+      "quantity": 500,
+      "time": "2026-04-09 11:00",
+      "status": "生产中"
+    }
+  ]
+}
